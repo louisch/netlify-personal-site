@@ -1,0 +1,32 @@
+baseURL = "http://louischan.xyz/"
+languageCode = "en-us"
+title = "Personal Website"
+theme = "devise"
+enableEmoji = true
+enableRobotsTXT = true
+copyright = "&copy; 2020, Iek Hou Chan"
+
+# Main menu items
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = -100
+
+# Configuration features
+[params]
+  header_title = "Personal Website"
+  header_subtitle = "Nothing here!"
+  recent_posts = 5
+  mainSections = ["posts", "post", "blog"]
+  [[params.social]]
+    fa_icon = "fab fa_github fa-1x"
+    href = "https://github.com/louisch"
